@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #16222a, #3a6073);
+
+}
+
+.clock {
+    display: flex;
+    position: absolute;
+    left: 13rem;
+    justify-content: center;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to bottom left, #b20a2c, #302b63, #4bc0c8);
+    border-image-slice: 1 fill;
+    margin: 200px;
+    color: #aabb;
+    font-size: 5rem;
+    letter-spacing: 2px;
+}
